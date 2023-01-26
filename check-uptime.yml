@@ -1,0 +1,7 @@
+---
+- name: check uptime
+host: all
+tasks:
+  -name: checks all the servers uptime
+  cmd: uptime
+  
